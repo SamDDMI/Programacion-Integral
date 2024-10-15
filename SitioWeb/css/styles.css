@@ -1,0 +1,104 @@
+.logo{
+
+    width: 20vh;
+   
+
+}
+.carrusel{
+    width: 100%;
+}
+header {
+    background-color: #343a40; /* Color de fondo del header */
+}
+
+.navbar {
+    padding: 1rem 0; /* Espaciado del navbar */
+}
+
+.nav-link {
+    color: #000000; /* Color del texto de los enlaces */
+    transition: color 0.3s; /* Transición suave para el color */
+}
+
+
+
+.logo {
+    max-width: 120px; /* Ajustar tamaño del logo */
+}
+
+
+
+
+/* Estilo básico para el botón */
+.btn-primary {
+  background-color: #007bff; /* Color de fondo */
+  border: none; /* Sin borde */
+  color: rgb(0, 0, 0); /* Color del texto */
+  padding: 10px 20px; /* Espaciado interno */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Mostrar en línea */
+  font-size: 16px; /* Tamaño de fuente */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s, transform 0.3s; /* Transiciones suaves */
+}
+
+/* Estilo para el botón cuando se pasa el cursor sobre él */
+.btn-primary:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+  transform: scale(1.05); /* Escala el botón ligeramente */
+}
+
+/* Estilo para el botón cuando se hace clic */
+.btn-primary:active {
+  transform: scale(0.95); /* Reduce el tamaño del botón al hacer clic */
+}
+
+
+/* Estilo personalizado para la clase activa */
+.navbar-nav .nav-link.active {
+  background-color: #007bff; /* Color azul */
+  color: white; /* Texto en blanco */
+  border-radius: 5px; /* Bordes redondeados para un mejor efecto */
+}
+
+.navbar-nav .nav-link.active:hover {
+  background-color: #0056b3; /* Color azul más oscuro al pasar el cursor */
+}
+.list-group-item.active {
+    background-color: #007bff; /* Cambia el color según tu preferencia */
+    color: white;
+}
+
+
+
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Espacio entre tarjetas */
+}
+
+.card {
+    flex: 1 0 21%; /* Ancho del 21% en pantallas grandes */
+    margin: 10px 0; /* Margen vertical */
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex: 1 0 100%; /* Ancho del 100% en pantallas pequeñas */
+    }
+}
+
+.list-group-item.active {
+    background-color: #007bff;
+    color: white;
+}
